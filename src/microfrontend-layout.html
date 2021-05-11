@@ -1,0 +1,18 @@
+<single-spa-router>
+  <!--
+
+    This is the single-spa Layout Definition for your microfrontends.
+    See https://single-spa.js.org/docs/layout-definition/ for more information.
+
+  -->
+
+  <nav>
+    <application name="@rainy-day/navbar"></application>
+  </nav>
+
+  <main>
+    <route default>
+      <application name="@rainy-day/root-config"></application>
+    </route>
+  </main>
+</single-spa-router>
